@@ -90,12 +90,10 @@ All code and answers are in [`Hotel_Operations_EDA.ipynb`](Hotel_Operations_EDA.
 **1. City Hotel is busier, Online TA brings most bookings, and August is the peak month.**
 City Hotel gets 61% of bookings. Online travel agents (Online TA) bring 59% of all bookings. August has the most arrivals and the most revenue.
 
-![Bookings overview](images/bookings_overview.png)
 
 **2. The earlier a guest books, the more likely they cancel.**
 Only 8% of bookings made within a week are canceled, compared with about 40% of bookings made more than 180 days ahead.
 
-![Lead time vs cancellation](images/lead_time_vs_cancellation.png)
 
 **3. City Hotel cancels more but earns more per night.**
 Cancellation rate is 30.1% at the City Hotel and 23.5% at the Resort Hotel. Average ADR is 111 euro vs 99 euro.
@@ -103,7 +101,6 @@ Cancellation rate is 30.1% at the City Hotel and 23.5% at the Resort Hotel. Aver
 **4. Resort Hotel prices swing with the season.**
 The Resort averages about 49 euro in January and 188 euro in August. The City Hotel stays between about 85 and 128 euro all year. July-August prices were about 33% higher in 2017 than in 2015.
 
-![ADR trend](images/adr_trend.png)
 
 **5. Repeat guests and guests with special requests are more reliable.**
 Repeat guests cancel much less. Cancellations fall from 33% (no special requests) to 6-11% (four or five requests).
@@ -111,7 +108,6 @@ Repeat guests cancel much less. Cancellations fall from 33% (no special requests
 **6. Cancellation drivers (logistic regression).**
 Non-refundable deposits, previous cancellations, long lead time and higher ADR push cancellations up. Repeat guests, special requests and booking changes push them down. The model gets 75.3% of bookings right, against 72.5% for always guessing "not canceled", so it is useful for understanding drivers, not for predicting single bookings.
 
-![Cancellation drivers](images/cancellation_drivers.png)
 
 **7. Other results.**
 Portugal is the top country (31% of bookings). Room type A is booked most (65%). 86% of bookings come through a travel agent. 8.4% of bookings need parking. Each child adds about 39 euro per night and each adult about 21 euro. Repeat guests stay about half as long as new guests (1.95 vs 3.70 nights).
@@ -138,6 +134,3 @@ Portugal is the top country (31% of bookings). Room type A is booked most (65%).
 - Next: compare reserved vs assigned room type, and build a Power BI dashboard from the cleaned data.
 
 ---
-
-**Radhika**
-[GitHub](https://github.com/YOUR-USERNAME) | [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
