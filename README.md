@@ -1,7 +1,5 @@
 # Hotel Harmony: Booking Analysis for Elite Hotels International
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/YOUR-REPO/blob/main/Hotel_Operations_EDA.ipynb)
-
 An exploratory data analysis (EDA) of 119,390 hotel bookings in Python. I cleaned the data, answered 25 business questions (basic, medium and advanced), and turned the results into clear recommendations on cancellations, pricing and marketing.
 
 ---
